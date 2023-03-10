@@ -1,4 +1,4 @@
-Why Python programming is awesome
+0x02. Python - import & modules
 How to import functions from another file
 How to use imported functions
 How to create a module
