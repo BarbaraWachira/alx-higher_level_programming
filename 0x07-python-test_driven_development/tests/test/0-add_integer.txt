@@ -1,0 +1,37 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(2, 3)
+5
+
+>>> add_integer(-2, 5)
+3
+
+>>> add_integer(7, -9)
+-2
+
+>>> add_integer(-7, -1)
+-8
+
+>>> add_integer("world", 5)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(8, "string")
+Traceback (most recent call last):
+TypeError: b must be an integer
+
+>>> add_integer("hello", "world")
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(-2.4,9)
+7
+
+>>> add_integer(2.4, 1.5)
+3
+
+>>> add_integer(-2.4, -9.8)
+-11
+
+>>> add_integer(6.7, -4.9)
+2
+
